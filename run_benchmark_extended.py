@@ -51,7 +51,7 @@ PILOT_TASKS = [
 STRATIFIED_COUNTS = {"all_pass": 2, "swing": 3, "all_fail": 1}
 
 # ABSOLUTELY leave False until the printed offline preview has been reviewed.
-RUN_PAID_EXPERIMENT = True
+RUN_PAID_EXPERIMENT = False
 MAX_NEW_API_CALLS = 720    # 12 swing: K2 <=288, K4 incremental <=360
 MAX_PROMPT_CHARS = 900_000  # protects only prompt characters, NOT total costs
 MAX_WORKERS = 24           # was 1; original registry default is 2000
