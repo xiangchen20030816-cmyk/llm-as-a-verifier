@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="869.76pt" height="370.310156pt" viewBox="0 0 869.76 370.310156" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-12T00:26:45.921141</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 370.310156 
+L 869.76 370.310156 
+L 869.76 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 36.2448 283.66776 
+L 165.16512 283.66776 
+Q 180.432 283.66776 180.432 278.1792 
+L 180.432 119.6208 
+Q 180.432 114.13224 165.16512 114.13224 
+L 36.2448 114.13224 
+Q 20.97792 114.13224 20.97792 119.6208 
+L 20.97792 278.1792 
+Q 20.97792 283.66776 36.2448 283.66776 
+z
+" clip-path="url(#p0c214461fa)" style="fill: #f6f9fc; stroke: #d7e0e7; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 178.193777 198.9 
+Q 184.249112 198.9 188.515593 198.9 
+" clip-path="url(#p0c214461fa)" style="fill: none; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 182.515593 195.9 
+L 188.515593 198.9 
+L 182.515593 201.9 
+z
+" clip-path="url(#p0c214461fa)" style="fill: #64748b; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 204.18048 283.66776 
+L 333.1008 283.66776 
+Q 348.36768 283.66776 348.36768 278.1792 
+L 348.36768 119.6208 
+Q 348.36768 114.13224 333.1008 114.13224 
+L 204.18048 114.13224 
+Q 188.9136 114.13224 188.9136 119.6208 
+L 188.9136 278.1792 
+Q 188.9136 283.66776 204.18048 283.66776 
+z
+" clip-path="url(#p0c214461fa)" style="fill: #f6f9fc; stroke: #d7e0e7; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 346.129457 198.9 
+Q 352.184792 198.9 356.451273 198.9 
+" clip-path="url(#p0c214461fa)" style="fill: none; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 350.451273 195.9 
+L 356.451273 198.9 
+L 350.451273 201.9 
+z
+" clip-path="url(#p0c214461fa)" style="fill: #64748b; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 372.11616 283.66776 
+L 501.03648 283.66776 
+Q 516.30336 283.66776 516.30336 278.1792 
+L 516.30336 119.6208 
+Q 516.30336 114.13224 501.03648 114.13224 
+L 372.11616 114.13224 
+Q 356.84928 114.13224 356.84928 119.6208 
+L 356.84928 278.1792 
+Q 356.84928 283.66776 372.11616 283.66776 
+z
+" clip-path="url(#p0c214461fa)" style="fill: #f6f9fc; stroke: #d7e0e7; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 514.065137 198.9 
+Q 520.120472 198.9 524.386953 198.9 
+" clip-path="url(#p0c214461fa)" style="fill: none; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 518.386953 195.9 
+L 524.386953 198.9 
+L 518.386953 201.9 
+z
+" clip-path="url(#p0c214461fa)" style="fill: #64748b; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 540.05184 283.66776 
+L 668.97216 283.66776 
+Q 684.23904 283.66776 684.23904 278.1792 
+L 684.23904 119.6208 
+Q 684.23904 114.13224 668.97216 114.13224 
+L 540.05184 114.13224 
+Q 524.78496 114.13224 524.78496 119.6208 
+L 524.78496 278.1792 
+Q 524.78496 283.66776 540.05184 283.66776 
+z
+" clip-path="url(#p0c214461fa)" style="fill: #e7f5f3; stroke: #9ccdc7; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 682.000817 198.9 
+Q 688.056152 198.9 692.322633 198.9 
+" clip-path="url(#p0c214461fa)" style="fill: none; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 686.322633 195.9 
+L 692.322633 198.9 
+L 686.322633 201.9 
+z
+" clip-path="url(#p0c214461fa)" style="fill: #64748b; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 707.98752 283.66776 
+L 836.90784 283.66776 
+Q 852.17472 283.66776 852.17472 278.1792 
+L 852.17472 119.6208 
+Q 852.17472 114.13224 836.90784 114.13224 
+L 707.98752 114.13224 
+Q 692.72064 114.13224 692.72064 119.6208 
+L 692.72064 278.1792 
+Q 692.72064 283.66776 707.98752 283.66776 
+z
+" clip-path="url(#p0c214461fa)" style="fill: #f6f9fc; stroke: #d7e0e7; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 44.7264 184.080888 
+L 156.68352 184.080888 
+" clip-path="url(#p0c214461fa)" style="fill: none; stroke: #d7e0e7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 212.66208 184.080888 
+L 324.6192 184.080888 
+" clip-path="url(#p0c214461fa)" style="fill: none; stroke: #d7e0e7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 380.59776 184.080888 
+L 492.55488 184.080888 
+" clip-path="url(#p0c214461fa)" style="fill: none; stroke: #d7e0e7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 548.53344 184.080888 
+L 660.49056 184.080888 
+" clip-path="url(#p0c214461fa)" style="fill: none; stroke: #9ccdc7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 716.46912 184.080888 
+L 828.42624 184.080888 
+" clip-path="url(#p0c214461fa)" style="fill: none; stroke: #d7e0e7; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="100.70496" y="139.058365" transform="rotate(-0 100.70496 139.058365)">I  Single-task</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #64748b" x="100.70496" y="168.280902" transform="rotate(-0 100.70496 168.280902)">Validate complete pipeline</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #17324f" transform="translate(43.030538 213.400801)">1 task  |  1/1 Swing correct</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #17324f" transform="translate(68.098194 226.728786)">K=2: 24 scores</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #17324f" transform="translate(68.098194 239.198786)">K=4: 48 scores</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="268.64064" y="139.058365" transform="rotate(-0 268.64064 139.058365)">II  Multi-task</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #64748b" x="268.64064" y="168.280902" transform="rotate(-0 268.64064 168.280902)">Expand beyond one task</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #17324f" transform="translate(208.726187 219.635801)">3 tasks  |  3/3 Swing correct</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #17324f" transform="translate(232.904952 233.039707)">72 score records</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="436.57632" y="139.058365" transform="rotate(-0 436.57632 139.058365)">III  12-task sample</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #64748b" x="436.57632" y="168.280902" transform="rotate(-0 436.57632 168.280902)">Explore decision stability</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #17324f" transform="translate(404.184554 213.501582)">12 Swing tasks</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #17324f" transform="translate(370.187679 225.870801)">11/12 Swing correct  |  91.67%</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #17324f" transform="translate(413.207836 239.198786)">288 scores</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="604.512" y="139.058365" transform="rotate(-0 604.512 139.058365)">IV  Full benchmark</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #64748b" x="604.512" y="168.280902" transform="rotate(-0 604.512 168.280902)">Reproduce the reported result</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #17324f" transform="translate(563.915297 213.501582)">89 tasks, 24 Swing</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #17324f" transform="translate(536.405375 225.870801)">77/89 overall correct  |  86.52%</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #17324f" transform="translate(564.312375 239.274707)">576 cached scores</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="772.44768" y="139.058365" transform="rotate(-0 772.44768 139.058365)">V  Offline ablation</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #64748b" x="772.44768" y="168.280902" transform="rotate(-0 772.44768 168.280902)">Test removal of Pivot Round</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #17324f" transform="translate(701.474836 213.501582)">Full vs Ring: 24/24 same winners</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #17324f" transform="translate(732.983758 226.728786)">576 -&gt; 432 scores</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #17324f" transform="translate(740.293086 239.274707)">0 new API calls</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="421.2" y="23.791719" transform="rotate(-0 421.2 23.791719)">Figure 2  |  Progressive evaluation design</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 9.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #64748b" x="421.2" y="357.3" transform="rotate(-0 421.2 357.3)">Pilot/sample results use Swing-only correctness; the full benchmark uses overall 89-task success. Do not interpret them as one accuracy time series.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p0c214461fa">
+   <rect x="10.8" y="46.44" width="848.16" height="304.92"/>
+  </clipPath>
+ </defs>
+</svg>

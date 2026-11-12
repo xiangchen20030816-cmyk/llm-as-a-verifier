@@ -1,0 +1,80 @@
+{
+  "timestamp_utc": "2026-11-09T19:37:07.679251+00:00",
+  "status": "complete",
+  "git_head": "90e8fc215606447d6d31e9e24bff7200fb0c0994",
+  "experiment": "Terminal-Bench 2.1 Best-of-3 small-subset PPT",
+  "NOT_full_89_task_benchmark": true,
+  "selection_mode": "pilot",
+  "selection_seed": 2026,
+  "selected_tasks": [
+    "kv-store-grpc",
+    "merge-diff-arc-agi-task",
+    "write-compressor"
+  ],
+  "subset_categories": {
+    "all_pass": 0,
+    "swing": 3,
+    "all_fail": 0
+  },
+  "model": "deepseek-flash",
+  "reasoning_effort": "high",
+  "max_output_tokens": 65536,
+  "n_trials": 3,
+  "criteria": [
+    "specification",
+    "output_match",
+    "error_signals"
+  ],
+  "pivots": 1,
+  "K": 2,
+  "ring_seed": 0,
+  "n_tasks": 3,
+  "n_swing": 3,
+  "pass1": 0.6666666666666666,
+  "verifier_rate": 1.0,
+  "oracle": 1.0,
+  "swing_accuracy": 1.0,
+  "swing_correct": 3,
+  "comparisons": 15,
+  "algorithmic_verification_requests": 72,
+  "reused_previous_scores": 0,
+  "newly_required_score_entries": 72,
+  "new_api_calls_reported": 72,
+  "incremental_token_usage_NOT_standalone_cost": {
+    "calls": 72,
+    "input_tokens": 1782636,
+    "cached_input_tokens": 1523566,
+    "uncached_input_tokens": 259070,
+    "output_tokens": 543623,
+    "reasoning_tokens": 531634,
+    "cache_hit_rate": 0.8546702748065225
+  },
+  "task_decisions_csv": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\7c31c55affa5bf18\\task_decisions_K2.csv",
+  "cache_path": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\7c31c55affa5bf18\\scores.json",
+  "task_decisions": [
+    {
+      "task": "kv-store-grpc",
+      "chosen_trial_1based": 2,
+      "chosen_reward": 1,
+      "trial_rewards": "011",
+      "pivot_indices_1based": "2",
+      "comparisons": 5
+    },
+    {
+      "task": "merge-diff-arc-agi-task",
+      "chosen_trial_1based": 1,
+      "chosen_reward": 1,
+      "trial_rewards": "101",
+      "pivot_indices_1based": "1",
+      "comparisons": 5
+    },
+    {
+      "task": "write-compressor",
+      "chosen_trial_1based": 2,
+      "chosen_reward": 1,
+      "trial_rewards": "011",
+      "pivot_indices_1based": "2",
+      "comparisons": 5
+    }
+  ]
+}

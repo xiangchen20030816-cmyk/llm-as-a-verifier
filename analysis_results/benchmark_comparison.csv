@@ -1,0 +1,5 @@
+﻿benchmark,name,loader,best_of,criteria_count,criteria,default_K,default_pivots,task_count,trial_count,incomplete_tasks,all_pass,swing,all_fail,pass_at_1_pct,oracle_pct,headroom_pct_points,median_trace_chars,median_swing_trace_chars
+terminal_bench_2.1,"TERMINAL-BENCH 2.1  (mini-swe-agent · deepseek-v4-flash, x5)",terminal,3,3,"[""specification"", ""output_match"", ""error_signals""]",2,2,89,267,0,58,24,7,79.40075,92.13483,12.73408,87920,136364.0
+terminal_bench_2.1,"TERMINAL-BENCH 2.1  (mini-swe-agent · deepseek-v4-flash, x5)",terminal,5,3,"[""specification"", ""output_match"", ""error_signals""]",2,2,89,445,0,50,36,3,78.65169,96.62921,17.97753,88335,121096.5
+terminal_bench_4.0,"TERMINAL-BENCH 4.0  (Claude Code · Opus 5.5, x5, verified by deepseek-flash)",terminal,3,3,"[""specification"", ""evidence"", ""completion""]",2,2,66,198,0,33,16,17,63.13131,74.24242,11.11111,229878.5,289093.0
+terminal_bench_4.0,"TERMINAL-BENCH 4.0  (Claude Code · Opus 5.5, x5, verified by deepseek-flash)",terminal,5,3,"[""specification"", ""evidence"", ""completion""]",2,2,66,330,0,31,21,14,64.84848,78.78788,13.93939,229369.5,263820

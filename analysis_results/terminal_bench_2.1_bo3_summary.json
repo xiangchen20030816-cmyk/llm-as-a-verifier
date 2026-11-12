@@ -1,0 +1,25 @@
+{
+  "benchmark": "terminal_bench_2.1",
+  "name": "TERMINAL-BENCH 2.1  (mini-swe-agent · deepseek-v4-flash, x5)",
+  "loader": "terminal",
+  "best_of": 3,
+  "criteria_count": 3,
+  "criteria": [
+    "specification",
+    "output_match",
+    "error_signals"
+  ],
+  "default_K": 2,
+  "default_pivots": 2,
+  "task_count": 89,
+  "trial_count": 267,
+  "incomplete_tasks": 0,
+  "all_pass": 58,
+  "swing": 24,
+  "all_fail": 7,
+  "pass_at_1_pct": 79.40075,
+  "oracle_pct": 92.13483,
+  "headroom_pct_points": 12.73408,
+  "median_trace_chars": 87920,
+  "median_swing_trace_chars": 136364.0
+}

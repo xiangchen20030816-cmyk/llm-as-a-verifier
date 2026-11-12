@@ -1,0 +1,5 @@
+﻿variant,label,success,n_tasks,accuracy_pct,score_requests,evidence_type
+full_ppt,Full PPT (K=2),77,89,86.5168539,576,Reproduced baseline
+ring_K2_all3,Ring-only (K=2),77,89,86.5168539,432,Controlled cached replay
+ring_K1_rep0_all3,"Ring-only (K=1, rep 0)",77,89,86.5168539,216,Exploratory post-hoc ablation
+ring_K2_output_match,Output Match only (exploratory),78,89,87.6404494,144,Exploratory post-hoc ablation

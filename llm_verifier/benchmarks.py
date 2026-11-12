@@ -10,6 +10,23 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
+#@dataclass 是 Python 的数据类装饰器，可以自动创建初始化方法，方便将一组配置封装成对象。
+#field(default_factory=list) 表示为每个对象创建一个独立的空列表，避免多个对象共享同一个可变列表
+
+# 六个基础参数
+# name	报告中显示的实验名称	TERMINAL-BENCH 2.1
+# loader	指定读取数据的方法	terminal
+# prompts	指定评价规则文件	terminal_bench
+# data	指定实验数据的位置	data/terminal_bench_2.1_trajs/...
+# cache	保存 LLM 已经计算的评分	cache/example.json
+# results	保存最终实验结果	results/example.txt
+
+# 五个控制参数
+# criteria	[]	启用的评价标准及其顺序
+# n_evaluations	4	每个标准重复验证的次数 K
+# pivots	2	排序算法使用的 Pivot 数量 k
+# seed	0	环形初步比较所使用的随机种子
+# max_workers	None	验证调用的并发控制，None 表示自动设置
 
 @dataclass
 class Benchmark:

@@ -1,0 +1,9 @@
+﻿variant,criteria,reps,correct_swing_24,overall_correct_89,overall_accuracy_pct,score_requests_needed,reduction_vs_full_pct,different_winning_trials_vs_K2_ring,warning
+ring_K2_all3,"specification,output_match,error_signals","0,1",19,77,86.517,432,25.0,0,"Post-hoc cached-score analysis, not independent fresh-model experiment"
+ring_K1_rep0_all3,"specification,output_match,error_signals",0,19,77,86.517,216,62.5,5,"Post-hoc cached-score analysis, not independent fresh-model experiment"
+ring_K1_rep1_all3,"specification,output_match,error_signals",1,18,76,85.393,216,62.5,2,"Post-hoc cached-score analysis, not independent fresh-model experiment"
+ring_K2_specification,specification,"0,1",17,75,84.27,144,75.0,7,"Post-hoc cached-score analysis, not independent fresh-model experiment"
+ring_K2_output_match,output_match,"0,1",20,78,87.64,144,75.0,2,"Post-hoc cached-score analysis, not independent fresh-model experiment"
+ring_K2_error_signals,error_signals,"0,1",19,77,86.517,144,75.0,4,"Post-hoc cached-score analysis, not independent fresh-model experiment"
+ring_K2_spec_output,"specification,output_match","0,1",18,76,85.393,288,50.0,2,"Post-hoc cached-score analysis, not independent fresh-model experiment"
+ring_K2_output_error,"output_match,error_signals","0,1",19,77,86.517,288,50.0,4,"Post-hoc cached-score analysis, not independent fresh-model experiment"

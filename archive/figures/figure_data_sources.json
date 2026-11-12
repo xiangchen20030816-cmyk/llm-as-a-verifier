@@ -1,0 +1,88 @@
+{
+  "description": "Automatically generated from verified local experiment data",
+  "generation_mode": "offline (zero new API calls)",
+  "git_head": "90e8fc215606447d6d31e9e24bff7200fb0c0994",
+  "n_tasks": 89,
+  "n_swing": 24,
+  "full_score_records": 576,
+  "ring_score_records_required": 432,
+  "chosen_trial_agreement": 24,
+  "three_task_stage_has_machine_readable_report": true,
+  "figure3_values": [
+    {
+      "variant": "full_ppt",
+      "label": "Full PPT (K=2)",
+      "success": 77,
+      "n_tasks": 89,
+      "accuracy_pct": 86.5168539,
+      "score_requests": 576,
+      "evidence_type": "Reproduced baseline"
+    },
+    {
+      "variant": "ring_K2_all3",
+      "label": "Ring-only (K=2)",
+      "success": 77,
+      "n_tasks": 89,
+      "accuracy_pct": 86.5168539,
+      "score_requests": 432,
+      "evidence_type": "Controlled cached replay"
+    },
+    {
+      "variant": "ring_K1_rep0_all3",
+      "label": "Ring-only (K=1, rep 0)",
+      "success": 77,
+      "n_tasks": 89,
+      "accuracy_pct": 86.5168539,
+      "score_requests": 216,
+      "evidence_type": "Exploratory post-hoc ablation"
+    },
+    {
+      "variant": "ring_K2_output_match",
+      "label": "Output Match only (exploratory)",
+      "success": 78,
+      "n_tasks": 89,
+      "accuracy_pct": 87.6404494,
+      "score_requests": 144,
+      "evidence_type": "Exploratory post-hoc ablation"
+    }
+  ],
+  "source_files_and_sha256": [
+    {
+      "path": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\60e63e37b82a1550\\report_K2.json",
+      "sha256": "3c93d186a48cd9e3b71fb6af24cacaca840c553dc274fd03a238db9428f38283"
+    },
+    {
+      "path": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\60e63e37b82a1550\\scores.json",
+      "sha256": "f63284ec24580fa6d232ebc5aeea8a8f07ee8a8880ad904e76f1e94ca0e5e917"
+    },
+    {
+      "path": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\60e63e37b82a1550\\full_benchmark_offline_analysis\\full_benchmark_offline_summary.json",
+      "sha256": "5146060000c6f36b40353d2de3ecc0eeb2785ee5a46c8e2175253130e90620b8"
+    },
+    {
+      "path": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\60e63e37b82a1550\\full_benchmark_offline_analysis\\offline_ablation_variants.csv",
+      "sha256": "e0deaf622ddc3a577c2bc16fee922d2b2830455c7bcbb9e475dd753b0a0bd742"
+    },
+    {
+      "path": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\60e63e37b82a1550\\full_benchmark_offline_analysis\\tasks_24_breakdown.csv",
+      "sha256": "2b148fcaba555b33ce0720d948c649a0b1af71b793140f410cfe8df1c1f630a2"
+    },
+    {
+      "path": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\82174b25f68bc3cb\\report_K2.json",
+      "sha256": "9384e3dc912e867ae247f77da90149558cce50bafb37ffaa5e2786ce01a5be5c"
+    },
+    {
+      "path": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\82174b25f68bc3cb\\report_K4.json",
+      "sha256": "0f5bc78ad3ba8924e8df5431a640a1f545d82fa80bd62035e61bc991cad9f094"
+    },
+    {
+      "path": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\cc129365bcc729e9\\report_K2.json",
+      "sha256": "304dd6299f53f29779061fec09bc0eba90f86ea004d02acf9b0c51a7d4e2b8e7"
+    },
+    {
+      "path": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\7c31c55affa5bf18\\report_K2.json",
+      "sha256": "e79ba1b5aaaa2e636d7f8db3ecd0db81df9109500dd46d917c41164ed11c3df4"
+    }
+  ],
+  "important_limitation": "Ring-only and criterion/repetition ablations are post-hoc replay of cached scores, not separate fresh-model experiments. Report token costs refer only to individual resumes, not necessarily full-run billing."
+}

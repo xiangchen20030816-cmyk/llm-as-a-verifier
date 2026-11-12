@@ -1,0 +1,4 @@
+﻿criterion,correct_direction,incorrect_direction,near_tie,total_cross_label_records
+specification,88,25,15,128
+output_match,92,18,18,128
+error_signals,76,24,28,128

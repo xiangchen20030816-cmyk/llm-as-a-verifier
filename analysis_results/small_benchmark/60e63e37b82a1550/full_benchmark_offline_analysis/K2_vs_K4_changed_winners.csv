@@ -1,0 +1,4 @@
+﻿task,trial_rewards,full_K2_trial,full_K2_correct,ring_K2_trial,ring_K2_correct,K1_rep0_ring_trial,K1_rep0_ring_correct,K1_rep1_ring_trial,K1_rep1_ring_correct,K1_full_rep0_trial,K1_full_rep0_missing_keys,K1_full_rep1_trial,K1_full_rep1_missing_keys,full_K4_trial,full_K4_correct,ring_K4_trial,ring_K4_correct,full_K2_K4_same_trial,K2_K4_outcome,K2_ring_margin,K2_full_margin,K4_ring_margin,K4_full_margin,K2_pivot_trial,K4_pivot_trial
+kv-store-grpc,011,3,1,3,1,3,1,3,1,3,0,3,0,2,1,2,1,0,both_correct,0.00979534,0.01958993,0.00163993,0.00883687,3,2
+merge-diff-arc-agi-task,101,3,1,3,1,1,1,3,1,1,0,3,0,1,1,1,1,0,both_correct,0.00109629,0.00127906,0.00164471,0.00255841,3,1
+mteb-retrieve,101,3,1,3,1,1,1,3,1,1,0,3,0,1,1,1,1,0,both_correct,0.00112272,0.01581711,0.01201813,0.00326809,3,1

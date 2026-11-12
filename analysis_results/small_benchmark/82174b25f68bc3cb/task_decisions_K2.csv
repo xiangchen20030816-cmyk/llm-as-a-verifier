@@ -1,0 +1,2 @@
+task,chosen_trial_1based,chosen_reward,trial_rewards,pivot_indices_1based,comparisons
+kv-store-grpc,3,1,011,3,5

@@ -39,7 +39,10 @@ from llm_verifier import pivot_tournament as ppt
 
 load_dotenv(ROOT_DIR)
 
-
+#按候选结果的成功情况划分任务：
+# All-pass（全部成功）：所有候选都正确，随便选择一个也能成功，因此不需要 Verifier 进一步判断。
+# All-fail（全部失败）：没有任何正确候选。Verifier 不管选择哪个都无法成功，因此也不需要验证。
+# Swing（有成功有失败）：只有这类任务存在真正的选择问题。Verifier 必须判断哪个候选正确。
 def classify(tasks):
     """Split tasks into all-pass (every trial succeeds) and swing (trials
     disagree). All-fail tasks are unwinnable and need no verification."""
@@ -52,7 +55,7 @@ def classify(tasks):
             swing.append(name)
     return all_pass, swing
 
-
+#根据名称寻找 Benchmark 配置
 def resolve_config(benchmark):
     """Look a benchmark name up in the registry. Lists the available benchmarks
     and exits if the argument is missing or unknown."""
@@ -67,7 +70,8 @@ def resolve_config(benchmark):
         print(f"  python scripts/run.py {name}")
     sys.exit(0 if not benchmark else 2)
 
-
+#python scripts/run.py terminal_bench_2.1 --n-evaluations 4 --max-workers 2
+#读取命令行参数，启动实验
 def main():
     parser = argparse.ArgumentParser(
         description=__doc__,
@@ -100,7 +104,11 @@ def main():
     )
     report(cfg, **result)
 
-
+#确定配置与读取数据
+#Ring Pass 每个候选都可以参与初步比较（环形相邻的两两比较），而无需一开始进行全部两两比较
+#选择 Pivot 根据初步比较结果挑选出的代表性候选，之后其他候选会与它们进行进一步比较
+#Pivot Rounds 现在已经知道应该重点比较哪些候选 所以进行第二轮评分
+#选择最终获胜者 
 def run_benchmark(cfg, pivots=None, n_evaluations=None, seed=None,
                   max_workers=None, n_trials=None, cache_file=None,
                   results_file=None):

@@ -1,0 +1,6 @@
+﻿task,total_trajectory_chars,trial_rewards,n_successful_trials,ring_K2_chosen_trial_1based,ring_K2_reward,full_K2_chosen_trial_1based,full_K2_reward,ring_full_same_trial,K1_rep0_ring_trial_1based,K1_rep0_ring_reward,K1_rep1_ring_trial_1based,K1_rep1_ring_reward,output_match_only_K2_ring_trial_1based,output_match_only_K2_ring_reward,ring_margin,full_margin,ring_preferences,full_preferences
+extract-elf,268171,001,1,1,0,1,0,1,1,0,2,0,1,0,0.01041351,0.03618462,"[0.589918, 0.579504, 0.330578]","[0.589918, 0.553734, 0.326375]"
+pytorch-model-cli,257700,011,2,1,0,1,0,1,2,1,1,0,1,0,0.00219232,0.00274073,"[0.505482, 0.503289, 0.491229]","[0.504934, 0.502193, 0.491229]"
+regex-chess,698664,110,2,3,0,3,0,1,3,0,3,0,3,0,0.02056027,0.029509,"[0.429242, 0.525099, 0.545659]","[0.426729, 0.51454, 0.544049]"
+sam-cell-seg,691953,101,2,2,0,2,0,1,2,0,2,0,2,0,0.0273695,0.03230242,"[0.501095, 0.528464, 0.470441]","[0.495615, 0.527917, 0.467163]"
+video-processing,1087821,100,1,2,0,2,0,1,2,0,2,0,1,1,0.03168795,0.03514288,"[0.503284, 0.534971, 0.461745]","[0.499268, 0.534411, 0.454852]"

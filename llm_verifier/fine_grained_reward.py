@@ -15,6 +15,18 @@ any OpenAI-compatible server with logprobs), the score expectation
 `extract_score`, the pairwise prompt, and a cached batch scorer.
 """
 
+# 代码行	模块	作用	学习优先级
+# 26–62	模型默认配置	模型名称、DeepSeek 推理参数	了解
+# 70–88	SCALE	定义 A–T 共20级评分	重点
+# 97–190	Client 创建	配置 Gemini、DeepSeek、OpenAI 兼容接口	重点
+# 197–337	Token Usage	统计 API 调用和 Token 消耗	了解
+# 341–388	Image Inputs	加载图像文件	略读
+# 391–634	Model Calling	调用模型并读取 Logprobs	重点
+# 641–712	extract_score()	将概率分布转换成连续分数	核心
+# 719–768	Prompt & Scoring	构建比较提示词并执行验证	核心
+# 780–797	directed_reward()	对多个评价标准和重复结果求平均	核心
+# 800–948	Batch Scoring	批量调用、并发执行、缓存与异常处理	重点
+
 import base64
 import json
 import math

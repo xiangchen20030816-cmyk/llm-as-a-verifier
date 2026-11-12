@@ -1,0 +1,62 @@
+{
+  "timestamp_utc": "2026-11-09T17:26:25.967756+00:00",
+  "status": "complete",
+  "git_head": "90e8fc215606447d6d31e9e24bff7200fb0c0994",
+  "experiment": "Terminal-Bench 2.1 Best-of-3 small-subset PPT",
+  "NOT_full_89_task_benchmark": true,
+  "selection_mode": "pilot",
+  "selection_seed": 2026,
+  "selected_tasks": [
+    "kv-store-grpc"
+  ],
+  "subset_categories": {
+    "all_pass": 0,
+    "swing": 1,
+    "all_fail": 0
+  },
+  "model": "deepseek-flash",
+  "reasoning_effort": "high",
+  "max_output_tokens": 65536,
+  "n_trials": 3,
+  "criteria": [
+    "specification",
+    "output_match",
+    "error_signals"
+  ],
+  "pivots": 1,
+  "K": 4,
+  "ring_seed": 0,
+  "n_tasks": 1,
+  "n_swing": 1,
+  "pass1": 0.6666666666666666,
+  "verifier_rate": 1.0,
+  "oracle": 1.0,
+  "swing_accuracy": 1.0,
+  "swing_correct": 1,
+  "comparisons": 5,
+  "algorithmic_verification_requests": 48,
+  "reused_previous_scores": 24,
+  "newly_required_score_entries": 24,
+  "new_api_calls_reported": 24,
+  "incremental_token_usage_NOT_standalone_cost": {
+    "calls": 24,
+    "input_tokens": 447038,
+    "cached_input_tokens": 442368,
+    "uncached_input_tokens": 4670,
+    "output_tokens": 202202,
+    "reasoning_tokens": 197583,
+    "cache_hit_rate": 0.9895534607796205
+  },
+  "task_decisions_csv": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\82174b25f68bc3cb\\task_decisions_K4.csv",
+  "cache_path": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\82174b25f68bc3cb\\scores.json",
+  "task_decisions": [
+    {
+      "task": "kv-store-grpc",
+      "chosen_trial_1based": 3,
+      "chosen_reward": 1,
+      "trial_rewards": "011",
+      "pivot_indices_1based": "3",
+      "comparisons": 5
+    }
+  ]
+}

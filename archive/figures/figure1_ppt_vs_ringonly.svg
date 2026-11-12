@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="756.576pt" height="491.153639pt" viewBox="0 0 756.576 491.153639" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-12T00:26:45.588345</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 491.153639 
+L 756.576 491.153639 
+L 756.576 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 68.424879 159.81336 
+L 298.234276 159.81336 
+Q 305.825577 159.81336 305.825577 151.535376 
+L 305.825577 113.531904 
+Q 305.825577 105.25392 298.234276 105.25392 
+L 68.424879 105.25392 
+Q 60.833577 105.25392 60.833577 113.531904 
+L 60.833577 151.535376 
+Q 60.833577 159.81336 68.424879 159.81336 
+z
+" clip-path="url(#p892e661106)" style="fill: #f6f9fc; stroke: #d7e0e7; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 183.329577 158.047977 
+Q 183.329577 168.278784 183.329577 176.720736 
+" clip-path="url(#p892e661106)" style="fill: none; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 186.329577 170.720736 
+L 183.329577 176.720736 
+L 180.329577 170.720736 
+z
+" clip-path="url(#p892e661106)" style="fill: #64748b; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 68.424879 233.1864 
+L 298.234276 233.1864 
+Q 305.825577 233.1864 305.825577 224.908416 
+L 305.825577 186.904944 
+Q 305.825577 178.62696 298.234276 178.62696 
+L 68.424879 178.62696 
+Q 60.833577 178.62696 60.833577 186.904944 
+L 60.833577 224.908416 
+Q 60.833577 233.1864 68.424879 233.1864 
+z
+" clip-path="url(#p892e661106)" style="fill: #e7f5f3; stroke: #9ccdc7; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 183.329577 231.421706 
+Q 183.329577 240.709822 183.329577 248.209083 
+" clip-path="url(#p892e661106)" style="fill: none; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 186.329577 242.209083 
+L 183.329577 248.209083 
+L 180.329577 242.209083 
+z
+" clip-path="url(#p892e661106)" style="fill: #64748b; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 68.424879 306.55944 
+L 298.234276 306.55944 
+Q 305.825577 306.55944 305.825577 298.281456 
+L 305.825577 260.277984 
+Q 305.825577 252 298.234276 252 
+L 68.424879 252 
+Q 60.833577 252 60.833577 260.277984 
+L 60.833577 298.281456 
+Q 60.833577 306.55944 68.424879 306.55944 
+z
+" clip-path="url(#p892e661106)" style="fill: #fef2e2; stroke: #e6cda9; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 183.329577 304.794976 
+Q 183.329577 313.141393 183.329577 319.698955 
+" clip-path="url(#p892e661106)" style="fill: none; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 186.329577 313.698955 
+L 183.329577 319.698955 
+L 180.329577 313.698955 
+z
+" clip-path="url(#p892e661106)" style="fill: #64748b; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 68.424879 372.40704 
+L 298.234276 372.40704 
+Q 305.825577 372.40704 305.825577 364.129056 
+L 305.825577 326.125584 
+Q 305.825577 317.8476 298.234276 317.8476 
+L 68.424879 317.8476 
+Q 60.833577 317.8476 60.833577 326.125584 
+L 60.833577 364.129056 
+Q 60.833577 372.40704 68.424879 372.40704 
+z
+" clip-path="url(#p892e661106)" style="fill: #eaf1fa; stroke: #b3cce8; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="183.329577" y="93.840306" transform="rotate(-0 183.329577 93.840306)">Original PPT</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="183.329577" y="127.732114" transform="rotate(-0 183.329577 127.732114)">Input</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="183.329577" y="143.081845" transform="rotate(-0 183.329577 143.081845)">3 candidate trajectories</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="183.329577" y="201.105604" transform="rotate(-0 183.329577 201.105604)">Ring Pass</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="183.329577" y="216.337698" transform="rotate(-0 183.329577 216.337698)">18 scores/task  |  432 total</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="183.329577" y="274.478644" transform="rotate(-0 183.329577 274.478644)">Pivot Round</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="183.329577" y="289.710738" transform="rotate(-0 183.329577 289.710738)">+6 new scores/task  |  +144 total</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="183.329577" y="340.326244" transform="rotate(-0 183.329577 340.326244)">Winner selection</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="183.329577" y="355.558338" transform="rotate(-0 183.329577 355.558338)">77/89 tasks  |  86.52% success</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="183.329577" y="403.368824" transform="rotate(-0 183.329577 403.368824)">576 required score records</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_9">
+    <path d="M 458.341724 159.81336 
+L 688.151121 159.81336 
+Q 695.742423 159.81336 695.742423 151.535376 
+L 695.742423 113.531904 
+Q 695.742423 105.25392 688.151121 105.25392 
+L 458.341724 105.25392 
+Q 450.750423 105.25392 450.750423 113.531904 
+L 450.750423 151.535376 
+Q 450.750423 159.81336 458.341724 159.81336 
+z
+" clip-path="url(#p14f2782c6f)" style="fill: #f6f9fc; stroke: #d7e0e7; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 573.246423 158.047977 
+Q 573.246423 168.278784 573.246423 176.720736 
+" clip-path="url(#p14f2782c6f)" style="fill: none; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 576.246423 170.720736 
+L 573.246423 176.720736 
+L 570.246423 170.720736 
+z
+" clip-path="url(#p14f2782c6f)" style="fill: #64748b; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 458.341724 233.1864 
+L 688.151121 233.1864 
+Q 695.742423 233.1864 695.742423 224.908416 
+L 695.742423 186.904944 
+Q 695.742423 178.62696 688.151121 178.62696 
+L 458.341724 178.62696 
+Q 450.750423 178.62696 450.750423 186.904944 
+L 450.750423 224.908416 
+Q 450.750423 233.1864 458.341724 233.1864 
+z
+" clip-path="url(#p14f2782c6f)" style="fill: #e7f5f3; stroke: #9ccdc7; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 573.246423 231.421706 
+Q 573.246423 240.709822 573.246423 248.209083 
+" clip-path="url(#p14f2782c6f)" style="fill: none; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 576.246423 242.209083 
+L 573.246423 248.209083 
+L 570.246423 242.209083 
+z
+" clip-path="url(#p14f2782c6f)" style="fill: #64748b; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 458.341724 306.55944 
+L 688.151121 306.55944 
+Q 695.742423 306.55944 695.742423 298.281456 
+L 695.742423 260.277984 
+Q 695.742423 252 688.151121 252 
+L 458.341724 252 
+Q 450.750423 252 450.750423 260.277984 
+L 450.750423 298.281456 
+Q 450.750423 306.55944 458.341724 306.55944 
+z
+" clip-path="url(#p14f2782c6f)" style="fill: #f3f5f7; stroke: #bfcbd6; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 573.246423 304.794976 
+Q 573.246423 313.141393 573.246423 319.698955 
+" clip-path="url(#p14f2782c6f)" style="fill: none; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 576.246423 313.698955 
+L 573.246423 319.698955 
+L 570.246423 313.698955 
+z
+" clip-path="url(#p14f2782c6f)" style="fill: #64748b; stroke: #64748b; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 458.341724 372.40704 
+L 688.151121 372.40704 
+Q 695.742423 372.40704 695.742423 364.129056 
+L 695.742423 326.125584 
+Q 695.742423 317.8476 688.151121 317.8476 
+L 458.341724 317.8476 
+Q 450.750423 317.8476 450.750423 326.125584 
+L 450.750423 364.129056 
+Q 450.750423 372.40704 458.341724 372.40704 
+z
+" clip-path="url(#p14f2782c6f)" style="fill: #eaf1fa; stroke: #b3cce8; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="573.246423" y="93.840306" transform="rotate(-0 573.246423 93.840306)">Modified Ring-only</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="573.246423" y="127.732114" transform="rotate(-0 573.246423 127.732114)">Input</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="573.246423" y="143.081845" transform="rotate(-0 573.246423 143.081845)">3 candidate trajectories</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="573.246423" y="201.105604" transform="rotate(-0 573.246423 201.105604)">Ring Pass</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="573.246423" y="216.337698" transform="rotate(-0 573.246423 216.337698)">18 scores/task  |  432 total</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="573.246423" y="274.478644" transform="rotate(-0 573.246423 274.478644)">Pivot Round removed</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="573.246423" y="289.827925" transform="rotate(-0 573.246423 289.827925)">25% fewer score requests</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="573.246423" y="340.326244" transform="rotate(-0 573.246423 340.326244)">Winner selection</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="573.246423" y="355.558338" transform="rotate(-0 573.246423 355.558338)">77/89 tasks  |  86.52% success</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #087f8c" x="573.246423" y="403.368824" transform="rotate(-0 573.246423 403.368824)">432 required score records</text>
+   </g>
+  </g>
+  <g id="text_21">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17324f" x="378.288" y="23.791719" transform="rotate(-0 378.288 23.791719)">Figure 1  |  Original PPT vs. Ring-only</text>
+  </g>
+  <g id="text_22">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #64748b" x="378.288" y="478.19153" transform="rotate(-0 378.288 478.19153)">Validated against 576 cached score records  |  Ring-only: post-hoc replay (not a second API experiment)</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p892e661106">
+   <rect x="10.8" y="63.864" width="345.059155" height="376.272"/>
+  </clipPath>
+  <clipPath id="p14f2782c6f">
+   <rect x="400.716845" y="63.864" width="345.059155" height="376.272"/>
+  </clipPath>
+ </defs>
+</svg>

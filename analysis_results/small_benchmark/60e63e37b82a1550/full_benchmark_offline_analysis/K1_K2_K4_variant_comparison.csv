@@ -1,0 +1,17 @@
+﻿variant,status,method,criteria,reps,tasks_evaluated,total_swing_tasks,correct_swing_24,overall_correct_89,overall_accuracy_pct,score_requests_needed,missing_score_keys,scenario,limitation,different_winning_trials_vs_full_K2,different_winning_trials_vs_K2_ring,reduction_vs_full_K2_pct
+full_K2,complete,full,"specification,output_match,error_signals","0,1",24,24,19,77,86.517,576,0,official_reproduction,Replay verified against official report.,0,0,0.0
+ring_K2_all3,complete,ring,"specification,output_match,error_signals","0,1",24,24,19,77,86.517,432,0,controlled_ablation,"All replay variants use cached scores, not new API calls.",0,0,25.0
+ring_K1_rep0_all3,complete,ring,"specification,output_match,error_signals",0,24,24,19,77,86.517,216,0,posthoc_K1_first_repeat,"All replay variants use cached scores, not new API calls.",5,5,62.5
+ring_K1_rep1_all3,complete,ring,"specification,output_match,error_signals",1,24,24,18,76,85.393,216,0,posthoc_second_only_sensitivity,"All replay variants use cached scores, not new API calls.",2,2,62.5
+full_K1_rep0_all3,incomplete_cache,full,"specification,output_match,error_signals",0,21,24,,,,,9,coverage_dependent,"All replay variants use cached scores, not new API calls.",,,
+full_K1_rep1_all3,incomplete_cache,full,"specification,output_match,error_signals",1,22,24,,,,,6,coverage_dependent_sensitivity,"All replay variants use cached scores, not new API calls.",,,
+ring_K2_specification,complete,ring,specification,"0,1",24,24,17,75,84.27,144,0,exploratory_criterion,"All replay variants use cached scores, not new API calls.",7,7,75.0
+ring_K2_output_match,complete,ring,output_match,"0,1",24,24,20,78,87.64,144,0,exploratory_criterion,"All replay variants use cached scores, not new API calls.",2,2,75.0
+ring_K2_error_signals,complete,ring,error_signals,"0,1",24,24,19,77,86.517,144,0,exploratory_criterion,"All replay variants use cached scores, not new API calls.",4,4,75.0
+ring_K2_spec_output,complete,ring,"specification,output_match","0,1",24,24,18,76,85.393,288,0,exploratory_criterion,"All replay variants use cached scores, not new API calls.",2,2,50.0
+ring_K2_output_error,complete,ring,"output_match,error_signals","0,1",24,24,19,77,86.517,288,0,exploratory_criterion,"All replay variants use cached scores, not new API calls.",4,4,50.0
+full_K4,complete,full,"specification,output_match,error_signals","0,1,2,3",24,24,19,77,86.517,1152,0,official_reproduction,Replay verified against official report.,3,3,-100.0
+ring_K4_all3,complete,ring,"specification,output_match,error_signals","0,1,2,3",24,24,19,77,86.517,864,0,controlled_ablation,"All replay variants use cached scores, not new API calls.",3,3,-50.0
+ring_K4_specification,complete,ring,specification,"0,1,2,3",24,24,17,75,84.27,288,0,exploratory_criterion,"All replay variants use cached scores, not new API calls.",7,7,50.0
+ring_K4_output_match,complete,ring,output_match,"0,1,2,3",24,24,19,77,86.517,288,0,exploratory_criterion,"All replay variants use cached scores, not new API calls.",6,6,50.0
+ring_K4_error_signals,complete,ring,error_signals,"0,1,2,3",24,24,19,77,86.517,288,0,exploratory_criterion,"All replay variants use cached scores, not new API calls.",4,4,50.0

@@ -11,6 +11,9 @@ ground truth used to score selection. Register new benchmarks by adding a
 loader here and pointing a config's `loader:` field at its key in LOADERS.
 """
 
+#window和unix不兼容修改：
+#task_name = os.path.basename(task_dir.rstrip("/"))
+#with open(traj_file) as f:
 import glob as globmod
 import json
 import os
@@ -79,12 +82,14 @@ def load_terminal(data, root):
     agent_dir = _abs(root, data["agent_dir"])
     tasks = {}
     for task_dir in sorted(globmod.glob(os.path.join(agent_dir, "*/"))):
-        task_name = os.path.basename(task_dir.rstrip("/"))
+        # task_name = os.path.basename(task_dir.rstrip("/"))
+        task_name = os.path.basename(os.path.normpath(task_dir))
         traj_files = sorted(globmod.glob(
             os.path.join(task_dir, "*_trajectory.json")))
         trials = []
         for traj_file in traj_files:
-            with open(traj_file) as f:
+            # with open(traj_file) as f:
+            with open(traj_file, encoding="utf-8") as f:
                 d = json.load(f)
             trajectory = d.get("trajectory")
             if not trajectory:

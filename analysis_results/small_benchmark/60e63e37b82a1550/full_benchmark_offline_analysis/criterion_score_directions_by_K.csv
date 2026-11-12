@@ -1,0 +1,7 @@
+﻿K,criterion,correct_direction,incorrect_direction,near_tie,total_cross_label_records
+2,specification,88,25,15,128
+2,output_match,92,18,18,128
+2,error_signals,76,24,28,128
+4,specification,173,54,25,252
+4,output_match,176,42,34,252
+4,error_signals,151,46,55,252

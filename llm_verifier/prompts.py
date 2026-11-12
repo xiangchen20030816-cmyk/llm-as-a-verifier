@@ -69,7 +69,7 @@ def _read_criteria(path):
         candidate = os.path.join(d, name)
         searched.append(candidate)
         if os.path.isfile(candidate):
-            with open(candidate) as f:
+            with open(candidate, encoding="utf-8") as f:
                 return f.read()
     raise FileNotFoundError(
         f"criteria {path!r} not found: not a file on disk, and no prompt "

@@ -1,0 +1,26 @@
+===== terminal_bench_2.1 | Best-of-3 =====
+Name: TERMINAL-BENCH 2.1  (mini-swe-agent · deepseek-v4-flash, x5)
+Criteria (3): specification, output_match, error_signals
+Config defaults: K=2, pivots=2
+Total tasks: 89 | Trials: 267
+All-pass: 58 | Swing: 24 | All-fail: 7
+Pass@1: 79.40% | Oracle: 92.13%
+Oracle - Pass@1: 12.73 percentage points
+Median trace length: 87,920 chars
+Median swing trace length: 136,364 chars
+
+--- 10 shortest Swing tasks (sort=total_chars) ---
+kv-store-grpc: total=77,340 chars; rewards=[0, 1, 1]; lengths=[21528, 18894, 36918]; shortest opposite-reward pair=40,422 chars
+merge-diff-arc-agi-task: total=93,815 chars; rewards=[1, 0, 1]; lengths=[30703, 32562, 30550]; shortest opposite-reward pair=63,112 chars
+write-compressor: total=134,588 chars; rewards=[0, 1, 1]; lengths=[22952, 47695, 63941]; shortest opposite-reward pair=70,647 chars
+model-extraction-relu-logits: total=201,881 chars; rewards=[1, 0, 0]; lengths=[87670, 42436, 71775]; shortest opposite-reward pair=130,106 chars
+cancel-async-tasks: total=211,730 chars; rewards=[1, 1, 0]; lengths=[83977, 97116, 30637]; shortest opposite-reward pair=114,614 chars
+password-recovery: total=214,169 chars; rewards=[1, 1, 0]; lengths=[97526, 33042, 83601]; shortest opposite-reward pair=116,643 chars
+mteb-retrieve: total=247,643 chars; rewards=[1, 0, 1]; lengths=[84007, 111747, 51889]; shortest opposite-reward pair=163,636 chars
+pytorch-model-cli: total=257,700 chars; rewards=[0, 1, 1]; lengths=[142598, 62996, 52106]; shortest opposite-reward pair=194,704 chars
+extract-elf: total=268,171 chars; rewards=[0, 0, 1]; lengths=[95392, 92346, 80433]; shortest opposite-reward pair=172,779 chars
+protein-assembly: total=313,522 chars; rewards=[0, 0, 1]; lengths=[145164, 77415, 90943]; shortest opposite-reward pair=168,358 chars
+
+Notes: character counts are NOT token counts or exact API-cost estimates.
+Sorting by short trajectories is for debugging, not representative sampling.
+Offline only: no LLM calls; Pass@1 and Oracle are not Verifier results.

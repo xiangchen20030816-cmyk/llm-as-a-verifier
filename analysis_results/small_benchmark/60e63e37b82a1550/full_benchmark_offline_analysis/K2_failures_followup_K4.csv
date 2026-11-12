@@ -1,0 +1,6 @@
+﻿task,trial_rewards,full_K2_trial,full_K2_correct,ring_K2_trial,ring_K2_correct,K1_rep0_ring_trial,K1_rep0_ring_correct,K1_rep1_ring_trial,K1_rep1_ring_correct,K1_full_rep0_trial,K1_full_rep0_missing_keys,K1_full_rep1_trial,K1_full_rep1_missing_keys,full_K4_trial,full_K4_correct,ring_K4_trial,ring_K4_correct,full_K2_K4_same_trial,K2_K4_outcome,K2_ring_margin,K2_full_margin,K4_ring_margin,K4_full_margin,K2_pivot_trial,K4_pivot_trial
+extract-elf,001,1,0,1,0,1,0,2,0,1,0,,3,1,0,1,0,1,both_wrong,0.01041351,0.03618462,0.0187933,0.0426269,1,1
+pytorch-model-cli,011,1,0,1,0,2,1,1,0,,3,1,0,1,0,1,0,1,both_wrong,0.00219232,0.00274073,0.00164379,0.00255759,1,1
+regex-chess,110,3,0,3,0,3,0,3,0,3,0,3,0,3,0,3,0,1,both_wrong,0.02056027,0.029509,0.01413805,0.02426703,3,3
+sam-cell-seg,101,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,1,both_wrong,0.0273695,0.03230242,0.02955982,0.03284982,2,2
+video-processing,100,2,0,2,0,2,0,2,0,1,0,2,0,2,0,2,0,1,both_wrong,0.03168795,0.03514288,0.03797141,0.03317694,2,2

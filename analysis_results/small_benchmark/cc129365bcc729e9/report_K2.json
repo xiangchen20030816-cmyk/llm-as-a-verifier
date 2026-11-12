@@ -1,0 +1,177 @@
+{
+  "timestamp_utc": "2026-11-09T20:43:43.033651+00:00",
+  "status": "complete",
+  "git_head": "90e8fc215606447d6d31e9e24bff7200fb0c0994",
+  "experiment": "Terminal-Bench 2.1 Best-of-3 controlled PPT",
+  "NOT_full_89_task_benchmark": true,
+  "selection_mode": "swing_spread",
+  "selection_seed": 2026,
+  "selected_tasks": [
+    "cancel-async-tasks",
+    "dna-assembly",
+    "extract-moves-from-video",
+    "gcode-to-text",
+    "gpt2-codegolf",
+    "merge-diff-arc-agi-task",
+    "mteb-leaderboard",
+    "password-recovery",
+    "path-tracing-reverse",
+    "protein-assembly",
+    "video-processing",
+    "write-compressor"
+  ],
+  "selected_task_total_chars": {
+    "cancel-async-tasks": 211730,
+    "dna-assembly": 478981,
+    "extract-moves-from-video": 889872,
+    "gcode-to-text": 1024636,
+    "gpt2-codegolf": 477405,
+    "merge-diff-arc-agi-task": 93815,
+    "mteb-leaderboard": 768507,
+    "password-recovery": 214169,
+    "path-tracing-reverse": 669485,
+    "protein-assembly": 313522,
+    "video-processing": 1087821,
+    "write-compressor": 134588
+  },
+  "subset_categories": {
+    "all_pass": 0,
+    "swing": 12,
+    "all_fail": 0
+  },
+  "model": "deepseek-flash",
+  "reasoning_effort": "high",
+  "max_output_tokens": 65536,
+  "n_trials": 3,
+  "criteria": [
+    "specification",
+    "output_match",
+    "error_signals"
+  ],
+  "pivots": 1,
+  "K": 2,
+  "ring_seed": 0,
+  "max_workers": 12,
+  "sample_swing_size": 12,
+  "n_tasks": 12,
+  "n_swing": 12,
+  "pass1": 0.5277777777777778,
+  "verifier_rate": 0.9166666666666666,
+  "oracle": 1.0,
+  "swing_accuracy": 0.9166666666666666,
+  "swing_correct": 11,
+  "comparisons": 60,
+  "algorithmic_verification_requests": 288,
+  "reused_previous_scores": 287,
+  "newly_required_score_entries": 1,
+  "new_api_calls_reported": 1,
+  "incremental_token_usage_NOT_standalone_cost": {
+    "calls": 1,
+    "input_tokens": 213810,
+    "cached_input_tokens": 213632,
+    "uncached_input_tokens": 178,
+    "output_tokens": 6440,
+    "reasoning_tokens": 6346,
+    "cache_hit_rate": 0.9991674851503671
+  },
+  "task_decisions_csv": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\cc129365bcc729e9\\task_decisions_K2.csv",
+  "cache_path": "E:\\CUHK\\FTEC5660\\reproduce\\llm-as-a-verifier\\analysis_results\\small_benchmark\\cc129365bcc729e9\\scores.json",
+  "task_decisions": [
+    {
+      "task": "cancel-async-tasks",
+      "chosen_trial_1based": 2,
+      "chosen_reward": 1,
+      "trial_rewards": "110",
+      "pivot_indices_1based": "2",
+      "comparisons": 5
+    },
+    {
+      "task": "dna-assembly",
+      "chosen_trial_1based": 2,
+      "chosen_reward": 1,
+      "trial_rewards": "110",
+      "pivot_indices_1based": "2",
+      "comparisons": 5
+    },
+    {
+      "task": "extract-moves-from-video",
+      "chosen_trial_1based": 1,
+      "chosen_reward": 1,
+      "trial_rewards": "100",
+      "pivot_indices_1based": "1",
+      "comparisons": 5
+    },
+    {
+      "task": "gcode-to-text",
+      "chosen_trial_1based": 1,
+      "chosen_reward": 1,
+      "trial_rewards": "100",
+      "pivot_indices_1based": "1",
+      "comparisons": 5
+    },
+    {
+      "task": "gpt2-codegolf",
+      "chosen_trial_1based": 2,
+      "chosen_reward": 1,
+      "trial_rewards": "010",
+      "pivot_indices_1based": "2",
+      "comparisons": 5
+    },
+    {
+      "task": "merge-diff-arc-agi-task",
+      "chosen_trial_1based": 1,
+      "chosen_reward": 1,
+      "trial_rewards": "101",
+      "pivot_indices_1based": "1",
+      "comparisons": 5
+    },
+    {
+      "task": "mteb-leaderboard",
+      "chosen_trial_1based": 1,
+      "chosen_reward": 1,
+      "trial_rewards": "101",
+      "pivot_indices_1based": "1",
+      "comparisons": 5
+    },
+    {
+      "task": "password-recovery",
+      "chosen_trial_1based": 2,
+      "chosen_reward": 1,
+      "trial_rewards": "110",
+      "pivot_indices_1based": "2",
+      "comparisons": 5
+    },
+    {
+      "task": "path-tracing-reverse",
+      "chosen_trial_1based": 1,
+      "chosen_reward": 1,
+      "trial_rewards": "110",
+      "pivot_indices_1based": "1",
+      "comparisons": 5
+    },
+    {
+      "task": "protein-assembly",
+      "chosen_trial_1based": 3,
+      "chosen_reward": 1,
+      "trial_rewards": "001",
+      "pivot_indices_1based": "3",
+      "comparisons": 5
+    },
+    {
+      "task": "video-processing",
+      "chosen_trial_1based": 2,
+      "chosen_reward": 0,
+      "trial_rewards": "100",
+      "pivot_indices_1based": "2",
+      "comparisons": 5
+    },
+    {
+      "task": "write-compressor",
+      "chosen_trial_1based": 2,
+      "chosen_reward": 1,
+      "trial_rewards": "011",
+      "pivot_indices_1based": "2",
+      "comparisons": 5
+    }
+  ]
+}
